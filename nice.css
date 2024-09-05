@@ -1,0 +1,199 @@
+.one {
+    width: 100%;
+    height: 750px;
+    background-color: lightblue;
+    z-index: 2;
+}
+
+.two {
+    display: flex;
+    background-color: lightgray;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 93%;
+    position: fixed;
+    width: 97.2%;
+    top: 0;
+    z-index: 2;
+}
+
+span {
+    margin-top: 30px;
+}
+
+span:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.three {
+    z-index: 1;
+    position: absolute;
+    background: linear-gradient(to right, black 60%, #61677A);
+    width: 98.7%;
+    height: 500px;
+    top: 15%;
+    display: flex;
+}
+
+img {
+    height: 500px;
+}
+
+.text {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin: 45px;
+}
+
+h2::after {
+    content: " Let's Talk!";
+    color: red;
+}
+
+.three p {
+    font-size: medium;
+    font-weight: 200;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: gray;
+}
+
+.three span {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.three span:hover {
+    color: black;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.cards {
+    display: flex;
+}
+
+.c1 {
+    margin-top: 50%;
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px solid black;
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.c1 svg {
+    padding-top: 50px;
+}
+
+.matter {
+    background-color: lightgray;
+    height: 700px;
+    margin-top: -12%;
+    display: flex;
+
+
+}
+
+.new {
+    margin-top: 15%;
+    margin-left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+    justify-content: center;
+
+}
+
+.new b {
+    font-style: italic;
+}
+
+.new p {
+    font-size: medium;
+    font-weight: 100;
+}
+
+.four {
+    display: flex;
+    margin-top: 20%;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    justify-content: center;
+
+}
+
+#email {
+    height: 30px;
+    font-size: larger;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+#name {
+    height: 30px;
+    font-size: larger;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+
+#mess {
+    font-size: larger;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black;
+    height: 150px;
+    width: 550px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    margin-bottom: 200px;
+}
+
+button {
+    width: 500px;
+    height: 50px;
+    margin-top: -150px;
+    border-radius: 30px;
+    background-color: rgb(78, 247, 78);
+    color: white;
+    font-size: larger;
+}
+
+button:hover {
+
+    cursor: pointer;
+    background-color: black;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
